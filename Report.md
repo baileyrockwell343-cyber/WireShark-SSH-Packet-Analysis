@@ -4,9 +4,11 @@
 **Date:** February 4, 2026
 ---
 
-## 🔐 SSH Session Establishment
+## 🔐 SSH Session Establishment and Configuration
 
-An SSH session was initiated from the Windows system to the Ubuntu system using PuTTY with the following configuration:
+An SSH session was initiated from the Windows system to the Ubuntu system using PuTTY with manully setting the IP configuration configurations:
+
+![wireshark1](Screenshots/wireshark 1.png)
 
 - **Host:** `192.168.50.50`
 - **Port:** `22`
