@@ -66,7 +66,7 @@ Set the Windows adapter IP to:
 ### 1) Start Wireshark capture (Windows)
 - Select the active interface
 - Start capture
-- Optional filter (recommended):  
+- filter SSH traffic:  
   - `ip.addr == 192.168.50.100 || ip.addr == 192.168.50.50`
 
 ### 2) SSH from Windows → Ubuntu using PuTTY
