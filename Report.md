@@ -9,6 +9,7 @@
 An SSH session was initiated from the Windows system to the Ubuntu system using PuTTY with manully setting the IP configuration configurations:
 
 ![wireshark1](screenshots/Wireshark_1.png)
+![wireshark2}(screenshots/Wireshark_2.png)
 
 - **Host:** `192.168.50.50`
 - **Port:** `22`
