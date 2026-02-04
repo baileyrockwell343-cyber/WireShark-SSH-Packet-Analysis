@@ -12,15 +12,15 @@ This repository documents a packet-capture lab using **Wireshark** to observe an
 
 This lab uses two VMs/hosts:
 
-- **Ubuntu machine:** `192.168.50.100` :contentReference[oaicite:2]{index=2}  
-- **Windows 10 machine:** `192.168.50.50` :contentReference[oaicite:3]{index=3}  
+- **Ubuntu machine:** `192.168.50.100` 
+- **Windows 10 machine:** `192.168.50.50` 
 
 The workflow is:
-1. Configure static IPs on both hosts :contentReference[oaicite:4]{index=4} :contentReference[oaicite:5]{index=5}  
-2. Verify connectivity with ping (both directions) :contentReference[oaicite:6]{index=6} :contentReference[oaicite:7]{index=7}  
-3. Use **PuTTY** on Windows to SSH into Ubuntu over **port 22** :contentReference[oaicite:8]{index=8}  
-4. Validate login + identity with `whoami` :contentReference[oaicite:9]{index=9}  
-5. Observe and describe SSH traffic in Wireshark (SYN → SYN/ACK → ACK, then encrypted SSHv2) :contentReference[oaicite:10]{index=10}  
+1. Configure static IPs on both hosts 
+2. Verify connectivity with ping (both directions) 
+3. Use **PuTTY** on Windows to SSH into Ubuntu over **port 22** 
+4. Validate login + identity with `whoami` 
+5. Observe and describe SSH traffic in Wireshark (SYN → SYN/ACK → ACK, then encrypted SSHv2) 
 
 ---
 
@@ -29,14 +29,14 @@ The workflow is:
 - Confirm host-to-host communication using ICMP (ping)
 - Generate a real SSH session using PuTTY (Windows → Ubuntu)
 - Capture and interpret the traffic in Wireshark
-- Explain why SSH traffic is encrypted and why Telnet traffic would expose credentials in plaintext :contentReference[oaicite:11]{index=11}
+- Explain why SSH traffic is encrypted and why Telnet traffic would expose credentials in plaintext 
 
 ---
 
 ## 🧪 Lab Environment
 
 **Provisioning**
-- Ubuntu machine + Windows 10 machine :contentReference[oaicite:12]{index=12}  
+- Ubuntu machine + Windows 10 machine 
 
 **Tools**
 - Wireshark (packet capture + filtering)
