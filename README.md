@@ -4,7 +4,7 @@
 **Project Type:** Network Traffic Analysis (Wireshark + PuTTY)  
 **Focus:** Secure remote access traffic validation + plaintext vs encrypted comparison
 
-This repository documents a packet-capture lab using **Wireshark** to observe and explain an **SSH session (TCP/22)** between a Windows host and an Ubuntu host, including a short security comparison against **Telnet (TCP/23)**. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+This repository documents a packet-capture lab using **Wireshark** to observe and explain an **SSH session (TCP/22)** between a Windows host and an Ubuntu host, including a short security comparison against **Telnet (TCP/23)**. 
 
 ---
 
@@ -49,15 +49,15 @@ The workflow is:
 
 ### Ubuntu (Static IP)
 Set the Ubuntu adapter IP to:
-- `192.168.50.100` :contentReference[oaicite:13]{index=13}  
+- `192.168.50.100` 
 
 ### Windows (Static IP)
 Set the Windows adapter IP to:
-- `192.168.50.50` :contentReference[oaicite:14]{index=14}  
+- `192.168.50.50` 
 
 ### Connectivity Verification
-- Ping Ubuntu host to confirm reachability :contentReference[oaicite:15]{index=15}  
-- Ping Windows host to confirm reachability :contentReference[oaicite:16]{index=16}  
+- Ping Ubuntu host to confirm reachability 
+- Ping Windows host to confirm reachability
 
 ---
 
@@ -71,9 +71,9 @@ Set the Windows adapter IP to:
 
 ### 2) SSH from Windows → Ubuntu using PuTTY
 On the Windows host in **PuTTY**:
-- Host/IP: `192.168.50.100` :contentReference[oaicite:17]{index=17}  
-- Port: `22` (SSH) :contentReference[oaicite:18]{index=18}  
-- Connection type: SSH :contentReference[oaicite:19]{index=19}  
+- Host/IP: `192.168.50.100` 
+- Port: `22` (SSH) 
+- Connection type: SSH 
 
 Login and verify identity:
 ```bash
